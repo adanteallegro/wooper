@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-size:20px;
+    line-height: 30px;
+    
+}
+
+/* This is how you make a comment in CSS. */
+
+header{
+    background-color: dodgerblue;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50 px;
+}
+
+h1, h2{
+
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1{
+    color: white;
+    font-size: 60px;
+   
+        
+      
+}
+
+header img{
+    border-radius: 200px;
+    width: 300px;
+    border: 20px solid white;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+main img{
+    max-width:100%;
+}
+
+a{
+    color:fuchsia;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 50px;
+}
+
+a:hover{
+    color:darkgoldenrod;
+}
+
+footer{
+    background-color: dodgerblue;
+    text-align: center;
+    color:white;
+    padding: 50px;
+}
+
+footer p{
+    margin: 0;
+}
