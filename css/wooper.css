@@ -1,7 +1,9 @@
 body{
     margin: 0;
     font-size:20px;
+    color:white;
     line-height: 30px;
+    background-color: black;
     
 }
 
@@ -12,6 +14,10 @@ header{
     text-align:center;
     padding-top: 50px;
     padding-bottom: 50 px;
+    background-image: url(grass.png);
+    background-size: 100px 80px;
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
 
 h1, h2{
@@ -30,10 +36,12 @@ header h1{
 }
 
 header img{
-    border-radius: 200px;
+    /*border-radius: 200px;*/
     width: 300px;
-    border: 20px solid white;
+    height:auto;
+    /*border: 20px solid white;*/
 }
+
 
 main{
     max-width: 800px;
@@ -56,6 +64,16 @@ table {
 
 td {
     padding: 50px;
+}
+
+.pokedexbox {
+    border: none;
+    padding: 5px;
+    font-size: 24px;
+    width: 350px;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 a:hover{
