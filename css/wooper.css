@@ -10,7 +10,7 @@ body{
 /* This is how you make a comment in CSS. */
 
 header{
-    background-color: dodgerblue;
+    background-color: #964424;
     text-align:center;
     padding-top: 50px;
     padding-bottom: 50 px;
@@ -20,7 +20,7 @@ header{
     background-repeat: repeat-x;
 }
 
-h1, h2{
+h1, h2, h3{
 
     font-family: "Jua", sans-serif;
     font-weight: 400;
@@ -47,6 +47,7 @@ main{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
 
 }
 
@@ -55,20 +56,23 @@ main img{
 }
 
 a{
-    color:fuchsia;
+    color: yellow;
 }
 
 table {
     border-collapse: collapse;
 }
 
+
 td {
-    padding: 50px;
+    padding: 10px;
+    font-size:18px;
 }
+
 
 .pokedexbox {
     border: none;
-    padding: 5px;
+    padding: 50px;
     font-size: 24px;
     width: 350px;
     height: 500px;
@@ -77,7 +81,7 @@ td {
 }
 
 a:hover{
-    color:darkgoldenrod;
+    color:rgb(124, 92, 11);
 }
 
 footer{
@@ -89,4 +93,8 @@ footer{
 
 footer p{
     margin: 0;
+}
+
+p, div{
+    font-family: Arial, Helvetica, sans-serif;
 }
